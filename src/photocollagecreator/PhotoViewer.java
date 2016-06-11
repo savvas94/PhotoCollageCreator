@@ -762,12 +762,7 @@ public class PhotoViewer extends javax.swing.JFrame {
 
     private void randomSizeSelectorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_randomSizeSelectorActionPerformed
         // TODO add your handling code here:
-        if(randomSizeSelector.isEnabled()){
-            enabledRandomSize = true;
-        }
-        else{
-            enabledRandomSize = false;
-        }
+        enabledRandomSize = randomSizeSelector.isSelected();
     }//GEN-LAST:event_randomSizeSelectorActionPerformed
 
     private void randomPositionSelectorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_randomPositionSelectorActionPerformed
